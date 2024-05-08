@@ -1,5 +1,6 @@
 <h1><b1>Project Description</b1></h1>
 <h2><b1>GiftListerApp</b1></h2> is a mobile application designed to facilitate the management and pledging of gift lists. This application enables users to create, view, and pledge for gift lists in a user-friendly environment, leveraging the real-time capabilities of Firebase Firestore coupled with secure Firebase Authentication for user management.
+
 1. The app allows a user to create a gift list and solicit pledges from other users to
 purchase items in their posted gift lists.
 2. You are provided with a skeleton app the includes all the UI implementation and the
@@ -13,6 +14,7 @@ should store each gift list product as a separate document under this sub-collec
 
 
 <h2><b1>Part 1, Gift Lists</b1></h2>
+
 This screen displays a list of gift lists as shown in Figure 1(a). Please follow the steps:
 1. Setup a snapshot listener to retrieve the “giftlists” collection and display the gift lists as shown in Fig 1(a).
 a. If needed disable the snapshot listener when this screen UI is destroyed.
@@ -26,6 +28,7 @@ of the selected GiftList item.
 5. Clicking on “Add New” transitions to the Create Gift List.
 
 <h2><b1> Part 2, Create Gift List Screen</b1></h2>
+
 This screen is a form to enable the user to create new gift list. This screen displays a list
 of products that will can be added to the new gift list, please follow the steps:
 1. The list of available products is retrieved from the products API and is displayed as
@@ -53,6 +56,7 @@ Figure 2(a).
 ![21](https://github.com/ashvinibalte/GiftListerApp/assets/125997432/98ee7668-74aa-443c-987a-d5dd19996e96)
 
 <h2><b1>Part 3, Gift List Screen</b1></h2>
+
 This screen display the details of specific Gift List as shown in Figure 2(b). Please follow
 the steps:
 1. This screen receives the Gift List documentId from the previous screen, it does not
@@ -90,6 +94,7 @@ d. The snapshot listeners will be triggered automatically upon these updates whi
 will refresh the table and the displayed gift list details.
 
 <h2><b1>Part 4, Filter Screen</b1></h2>
+
 This screen allows the user to filter the Gift Lists displayed based on the array of
 selected tags as shown in Figure 3(b). Please follow the steps:
 1. Using the Tags screen the user is able to select the array of tags that is sent to this
