@@ -4,7 +4,7 @@ leveraging the real-time capabilities of Firebase Firestore coupled with secure 
 
 <h2><b1>Key Features</b1></h2>
 
-<h2><b1>Gift List Creation and Management:</b1></h2> Users can create detailed gift lists, including item descriptions, total costs, and occasion-specific tags. Lists can be edited or removed as needed.
+<h3><b1>Gift List Creation and Management:</b1></h3> Users can create detailed gift lists, including item descriptions, total costs, and occasion-specific tags. Lists can be edited or removed as needed.
 
 <h2><b1>Real-Time Data Interaction:</b1></h2> Utilizes Firebase Firestore and snapshot listeners to ensure that all gift list data is current and reflects real-time changes made by other users.
 
