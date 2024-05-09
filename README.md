@@ -1,4 +1,9 @@
 <h1><b1>Project Description</b1></h1>
+
+
+https://github.com/ashvinibalte/GiftListerApp/assets/125997432/e4e9940e-2cfc-471b-8c34-a05900378231
+
+
 <h2><b1>GiftListerApp</b1></h2> is a mobile application designed to facilitate the management and pledging of gift lists. This application enables users to create, view, and pledge for gift lists in a user-friendly environment, leveraging the real-time capabilities of Firebase Firestore coupled with secure Firebase Authentication for user management.
 
 1. The app allows a user to create a gift list and solicit pledges from other users to
